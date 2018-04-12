@@ -1,0 +1,23 @@
+.win {
+    width: 100%;
+    height: auto;
+    /*background-color: yellow;*/
+    padding: 50px 17%;
+    box-sizing: border-box;
+}
+.winner {
+    display: flex;
+    justify-content: center;
+}
+.winner-icon {
+    width: 140px;
+    height: 140px;
+}
+.message {
+    display: flex;
+    justify-content: center;
+}
+.controls {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,6 @@
+RewriteEngine On
+
+# REDIRECT
+#Redirect 301 /public/img http://localhost/error
+#RewriteCond %{HTTP_HOST} ^/public/img/$ [NC]
+#RewriteRule ^(.*)$ http://localhost/error [R=301,L]

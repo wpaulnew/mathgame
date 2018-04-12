@@ -1,0 +1,12 @@
+AddDefaultCharset utf-8
+RewriteEngine On
+
+#<ifmodule mod_deflate.c="">
+#    <filesmatch .(js|css|html|png)$="">
+#        SetOutputFilter DEFLATE
+#    </filesmatch>
+#</ifmodule>
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ /public/$1 [NC,L]

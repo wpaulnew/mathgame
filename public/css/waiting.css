@@ -1,0 +1,19 @@
+.waiting {
+    width: 100%;
+    height: auto;
+    /*background-color: yellow;*/
+    padding: 50px 17%;
+    box-sizing: border-box;
+}
+
+.profiles {
+    /*background-color: cadetblue;*/
+    display: flex;
+    justify-content: center;
+}
+.profile-mini-icon {
+    width: 50px;
+    margin: 0 15px;
+    height: 50px;
+    border-radius: 100%;
+}

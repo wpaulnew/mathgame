@@ -1,0 +1,30 @@
+.home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 50px 17%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-profile {
+    /*background-color: yellow;*/
+    display: flex;
+    align-items: center;
+}
+.name {
+    margin: 0 15px;
+}
+.profile-icon {
+    width: 154px;
+    height: 154px;
+    border-radius: 100%;
+}
+.points {
+    /*background-color: brown;*/
+    display: flex;
+}
+.points > p {
+    padding: 0 15px;
+}
+

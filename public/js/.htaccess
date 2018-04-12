@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# REDIRECT
+#Redirect 301 /public/js http://localhost/error

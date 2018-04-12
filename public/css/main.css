@@ -1,0 +1,417 @@
+body {
+    background: #fafafa;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .0975);
+}
+
+.menu {
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.left-menu {
+    /*background-color: lightgrey;*/
+}
+
+.right-menu {
+    /*width: 10%;*/
+    /*background-color: brown;*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-menu > a {
+    font-family: fantasy;
+    text-decoration: none;
+}
+.right-menu > a:first-child {
+    color: #262626;
+    margin-right: 15px;
+}
+.right-menu > a:last-child {
+    color: #A5A5A5;
+}
+
+.home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    /*padding: 50px 17%;*/
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+
+    flex-wrap: wrap;
+}
+
+.about-profile {
+    /*background-color: yellow;*/
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-size: 1.5em;
+    margin: 0 15px;
+}
+
+.profile-icon {
+    width: 154px;
+    height: 154px;
+    border-radius: 100%;
+}
+
+.points {
+    /*background-color: brown;*/
+    display: flex;
+}
+
+.points > p {
+    padding: 0 15px;
+}
+
+.waiting {
+    width: 100%;
+    height: auto;
+    /*background-color: yellow;*/
+    /*padding: 50px 17%;*/
+    margin-top: 50px;
+    /*display: none;*/
+    box-sizing: border-box;
+}
+
+.profiles {
+    /*background-color: cadetblue;*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.profile-mini-icon {
+    width: 50px;
+    margin: 0 15px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.process {
+    width: 100%;
+    height: auto;
+    /*background-color: yellow;*/
+    padding: 50px 17%;
+    box-sizing: border-box;
+
+    /*display: none;*/
+}
+
+.level {
+    display: flex;
+    justify-content: center;
+}
+
+.example {
+    display: flex;
+    justify-content: center;
+}
+
+.example-question {
+    margin: 40px 0;
+    font-size: 5em;
+}
+
+.answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.win {
+    width: 100%;
+    height: auto;
+    /*background-color: yellow;*/
+    padding: 50px 17%;
+    box-sizing: border-box;
+}
+
+#count-win {
+    color: #00ABF1;
+    font-size: 2em;
+}
+
+.point-number {
+    background-color: gainsboro;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin-top: 4px;
+    border-radius: 4px;
+}
+
+.wins {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.winner {
+    display: flex;
+    justify-content: center;
+}
+
+.winner-icon {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.a-restart {
+    border: solid 1.5px #3897f0;
+    color: #3897f0;
+    background-color: #fff;
+    cursor: pointer;
+    /*height: 48px;*/
+    outline: none;
+    text-align: center;
+    /*width: 167px;*/
+    text-decoration: none;
+    padding:  13px 50px;
+    border-radius: 50px;
+    margin: 0 15px;
+}
+
+.a-home {
+    border: solid 1.5px #3897f0;
+    color: #3897f0;
+    background-color: #fff;
+    cursor: pointer;
+    /*height: 48px;*/
+    outline: none;
+    text-align: center;
+    /*width: 167px;*/
+    text-decoration: none;
+    padding:  13px 50px;
+    border-radius: 50px;
+    margin: 0 15px;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.lost {
+    width: 100%;
+    height: auto;
+    /*background-color: yellow;*/
+    padding: 50px 17%;
+    box-sizing: border-box;
+}
+
+.login {
+    width: 100%;
+    height: auto;
+    /*background-color: yellow;*/
+    /*padding: 50px 17%;*/
+    box-sizing: border-box;
+}
+
+.sign-in {
+    /*background-color: yellow;*/
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login,#password,#sign-in {
+    margin: 0 15px;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Verdana;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    /*background-color: cadetblue;*/
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 1110px;
+    height: auto;
+    /*background-color: lightgrey;*/
+    box-sizing: border-box;
+    /*padding: 0 15px;*/
+}
+
+#begin {
+    font-family: fantasy;
+    text-decoration: none;
+    color : #00ABF1;
+}
+
+#login {
+    border: solid 1.5px #d0d0d0;
+    color: #a3a3a3;
+    font-size: 1.2em;
+    height: 48px;
+    outline: none;
+    text-align: center;
+    width: 167px;
+    border-radius: 29px;
+}
+#password {
+    border: solid 1.5px #d0d0d0;
+    color: #a3a3a3;
+    font-size: 1.2em;
+    height: 48px;
+    outline: none;
+    text-align: center;
+    width: 167px;
+    border-radius: 29px;
+}
+#sign-in {
+    border: solid 1.5px #3897f0;
+    color: #3897f0;
+    background-color: #fff;
+    cursor: pointer;
+    height: 48px;
+    outline: none;
+    text-align: center;
+    width: 167px;
+    border-radius: 29px;
+}
+
+.input-answer {
+    border: solid 1.5px #d0d0d0;
+    color: #a3a3a3;
+    font-size: 1.2em;
+    height: 48px;
+    outline: none;
+    text-align: center;
+    width: 167px;
+    border-radius: 29px;
+    margin: 0 15px;
+}
+
+.btn-answer{
+    border: solid 1.5px #3897f0;
+    color: #3897f0;
+    background-color: #fff;
+    cursor: pointer;
+    height: 48px;
+    outline: none;
+    text-align: center;
+    width: 167px;
+    border-radius: 29px;
+    margin: 0 15px;
+}
+
+.buttons-play {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+#play-game {
+    border: solid 1.5px #3897f0;
+    color: #3897f0;
+    background-color: #fff;
+    cursor: pointer;
+    height: 48px;
+    outline: none;
+    text-align: center;
+    width: 167px;
+    border-radius: 29px;
+    margin-top: 50px;
+}
+
+.btn-select-room {
+    border: solid 1.5px #3897f0;
+    color: #3897f0;
+    background-color: #fff;
+    cursor: pointer;
+    height: 48px;
+    outline: none;
+    text-align: center;
+    width: 167px;
+    border-radius: 29px;
+    margin: 50px 15px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .about-profile {
+        flex-direction: column;
+    }
+    .home {
+        flex-direction: column;
+    }
+    .name {
+        margin-top: 27px;
+    }
+    .points {
+        margin-top: 10px;
+    }
+    .sign-in {
+        flex-direction: column;
+        align-items: center;
+    }
+    #login,#password,#sign-in {
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .buttons-play {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .btn-select-room {
+        margin: 5px 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .answer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .input-answer {
+
+    }
+    .btn-answer {
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .a-home {
+        margin-top: 15px;
+    }
+}

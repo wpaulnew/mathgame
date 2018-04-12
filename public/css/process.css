@@ -1,0 +1,23 @@
+.process {
+    width: 100%;
+    height: auto;
+    /*background-color: yellow;*/
+    padding: 50px 17%;
+    box-sizing: border-box;
+}
+.level {
+    display: flex;
+    justify-content: center;
+}
+.example {
+    display: flex;
+    justify-content: center;
+}
+.example-question {
+    margin: 40px 0;
+    font-size: 5em;
+}
+.answer {
+    display: flex;
+    justify-content: center;
+}
